@@ -10,7 +10,7 @@
 
 ###竖直虚线
 
-![img](https://github.com/SmallLee/DashView/blob/master/%E5%9E%82%E7%9B%B4%E8%99%9A%E7%BA%BF.png）
+![img](https://github.com/SmallLee/DashView/blob/master/%E5%9E%82%E7%9B%B4%E8%99%9A%E7%BA%BF.png)
 
 ##使用
 
