@@ -5,11 +5,10 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 
 /**
- * Created by hecun on 2016/8/26.
+ * Created by Administrator on 2016/8/26.
  */
 public class DashView extends View {
     private static final String TAG = "DashView";
@@ -59,13 +58,11 @@ public class DashView extends View {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
         widthSize = MeasureSpec.getSize(widthMeasureSpec)-getPaddingLeft()-getPaddingRight();
         heightSize = MeasureSpec.getSize(heightMeasureSpec - getPaddingTop() - getPaddingBottom());
-        Log.d(TAG, "onMeasure: "+widthSize+"----"+heightSize);
-        Log.d(TAG, "dashOrientation: "+dashOrientation);
         if(dashOrientation == ORIENTATION_HORIZONTAL){
             //不管在布局文件中虚线高度设置为多少，虚线的高度统一设置为实体线段的高度
             setMeasuredDimension(widthSize, (int) lineHeight);
         }else{
-            setMeasuredDimension((int) lineHeight, heightSize);
+            setMeasuredDimension((int) lineWidth, heightSize);
         }
 
     }
