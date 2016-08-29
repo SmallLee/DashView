@@ -37,7 +37,7 @@ lineHeight:线段高度
 ```
 
 ##注意事项
-当设定虚线的方向后，对应方向的属性的模式就要设置为EXACTLY,例如当前为水平虚线，那么控件的layout_width属性就必须为match_parent或者固定数值
+当设定虚线的方向时，对应方向的wrap_content显示效果为match_parent,因为在实际情况中，虚线的尺寸总是固定的数值。
 
 
 
