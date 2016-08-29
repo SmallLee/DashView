@@ -59,9 +59,10 @@ public class DashView extends View {
         widthSize = MeasureSpec.getSize(widthMeasureSpec)-getPaddingLeft()-getPaddingRight();
         heightSize = MeasureSpec.getSize(heightMeasureSpec - getPaddingTop() - getPaddingBottom());
         if(dashOrientation == ORIENTATION_HORIZONTAL){
-            //不管在布局文件中虚线高度设置为多少，虚线的高度统一设置为实体线段的高度
+            ////不管在布局文件中虚线高度设置为多少，控件的高度统一设置为线段的高度
             setMeasuredDimension(widthSize, (int) lineHeight);
         }else{
+            //当为竖直方向时，控件宽度设置为虚线的高度
             setMeasuredDimension((int) lineWidth, heightSize);
         }
 
