@@ -15,7 +15,7 @@
 ##使用
 
 ```Java
- <com.thomas.dashview.DashView
+ <com.fang.dashview.DashView
         android:layout_marginLeft="40dp"
         android:layout_width="wrap_content"
         android:layout_height="300dp"
