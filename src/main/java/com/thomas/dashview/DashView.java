@@ -63,7 +63,7 @@ public class DashView extends View {
             setMeasuredDimension(widthSize, (int) lineHeight);
         }else{
             //当为竖直方向时，控件宽度设置为虚线的高度
-            setMeasuredDimension((int) lineWidth, heightSize);
+           setMeasuredDimension((int) lineHeight, heightSize);
         }
 
     }
