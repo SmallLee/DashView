@@ -12,6 +12,15 @@
 
 ![img](https://github.com/SmallLee/DashView/blob/master/%E5%9E%82%E7%9B%B4%E8%99%9A%E7%BA%BF.png)
 
+#引入
+
+```Java
+
+dependencies {
+    compile 'com.fang:dashview:v1.0.0'
+}
+```
+
 ##使用
 
 ```Java
